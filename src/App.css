@@ -1,0 +1,37 @@
+.wrapper {
+  width: 70%;
+  padding: var(--l-padding);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  color: #333;
+  font-size: 20px;
+  margin-left: var(--m-margin);
+}
+
+span {
+  font-weight: bold;
+}
+
+.question {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.answer {
+  cursor: pointer;
+}
+
+.answer:hover {
+  background-color: #eee;
+}
+
+.result{
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
